@@ -20,6 +20,7 @@ export default defineConfig<TestOptions>({
     ["junit", { outputFile: "test-results/junitReport.xml" }],
     // ["allure-playwright"],
     ["html"],
+    ["github"],
   ],
 
   use: {
